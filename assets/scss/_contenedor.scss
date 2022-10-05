@@ -1,0 +1,25 @@
+@media screen and (max-widht: 1200px){
+    .contenedor{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    }
+}
+@media screen and (max-width: 768px) {
+    .contenedor{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+        "header"
+        "aside"
+        "main"
+        "footer";
+}
+}

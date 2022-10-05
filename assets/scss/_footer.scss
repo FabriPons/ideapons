@@ -1,0 +1,29 @@
+footer{    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,72aa00+19,72aa00+20,8eb92a+35,bfd255+55,72aa00+64,72aa00+64,72aa00+80,9ecb2d+100 */
+    background: #bfd255; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #bfd255 0%, #72aa00 19%, #72aa00 20%, #8eb92a 35%, #bfd255 55%, #72aa00 64%, #72aa00 64%, #72aa00 80%, #9ecb2d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #bfd255 0%,#72aa00 19%,#72aa00 20%,#8eb92a 35%,#bfd255 55%,#72aa00 64%,#72aa00 64%,#72aa00 80%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #bfd255 0%,#72aa00 19%,#72aa00 20%,#8eb92a 35%,#bfd255 55%,#72aa00 64%,#72aa00 64%,#72aa00 80%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 1 rem;
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: space-around;   
+    
+    p{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: orangered;
+    }
+    .sumate{
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .redes{
+        align-content: flex-start;
+        flex-wrap: wrap;  
+    }
+}

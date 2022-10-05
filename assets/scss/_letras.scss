@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+h2{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: white;
+    #especial strong {
+        font-weight: normal;
+        background-color: #020200;
+        padding: 2px;
+      }
+}
+p{
+    padding: 1rem;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    animation-duration: 8s;
+    animation-name: aparecer;
+    animation-iteration-count : 0;
+    
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            }
+        50% {
+            opacity: 1;
+            }
+        100% {
+          opacity: 0;
+            }
+    }
+}

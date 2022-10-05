@@ -1,0 +1,53 @@
+header{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6e6b4+0,ed9017+9,f6e6b4+22,ed9017+29,f6e6b4+35,ed9017+51,f6e6b4+61,f6e6b4+61,ed9017+72,f6e6b4+81,ed9017+88,f6e6b4+95 */
+    background: #f6e6b4; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #f6e6b4 0%, #ed9017 9%, #f6e6b4 22%, #ed9017 29%, #f6e6b4 35%, #ed9017 51%, #f6e6b4 61%, #f6e6b4 61%, #ed9017 72%, #f6e6b4 81%, #ed9017 88%, #f6e6b4 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #f6e6b4 0%,#ed9017 9%,#f6e6b4 22%,#ed9017 29%,#f6e6b4 35%,#ed9017 51%,#f6e6b4 61%,#f6e6b4 61%,#ed9017 72%,#f6e6b4 81%,#ed9017 88%,#f6e6b4 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #f6e6b4 0%,#ed9017 9%,#f6e6b4 22%,#ed9017 29%,#f6e6b4 35%,#ed9017 51%,#f6e6b4 61%,#f6e6b4 61%,#ed9017 72%,#f6e6b4 81%,#ed9017 88%,#f6e6b4 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#f6e6b4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding:1.2rem;
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    img{    
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        width: 250px;
+        height: 150px;
+        opacity: 1;
+        &:hover{
+                border-radius: 20%;
+                cursor: pointer;
+                }   
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+            a{
+                background-color: rgb(60, 190, 27);
+                text-decoration: solid;
+                border-radius: 30px;
+                cursor: pointer;
+                text-decoration: none;
+                padding: 0.8 rem;
+                display: block;
+                display: flex;
+                flex-direction: row;
+                list-style-type: none;
+                flex-wrap: wrap;
+                &:hover {
+                    background-color: rgb(255, 127, 80);
+                    border-radius:  50%;
+            }          
+            }    
+        }    
+}
