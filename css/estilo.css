@@ -251,4 +251,23 @@ aside h2 {
   border-radius: 20%;
   cursor: pointer;
   border: 2px double black;
+}
+
+.imgp {
+  max-width: 5rem;
+  max-height: 15rem;
+}
+.imgp:hover {
+  border-radius: 20%;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imgt {
+  max-width: 100%;
+  max-height: 100%;
+}
+.imgt:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=estilo.css.map */
