@@ -2,7 +2,6 @@ $ch1: green;
 $ch2: orange;
 $ch3: black;
 
-
 @mixin img($color) {
         justify-content: center;
         justify-items: center;
@@ -28,6 +27,10 @@ $ch3: black;
 }
 .img3{
     @include img ($ch3)
+}
+.imgp{
+    max-width: 5rem;
+    max-height: 15rem;
 }
  
 

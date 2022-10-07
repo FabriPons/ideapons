@@ -251,4 +251,9 @@ aside h2 {
   border-radius: 20%;
   cursor: pointer;
   border: 2px double black;
+}
+
+.imgp {
+  max-width: 5rem;
+  max-height: 15rem;
 }/*# sourceMappingURL=estilo.css.map */
