@@ -29,21 +29,21 @@ $ch3: black;
     @include img ($ch3)
 }
 .imgp{
-    max-width: 5rem;
-    max-height: 15rem;
+    max-width: 80%;
+    max-height: 80%;
     &:hover{
-        border-radius: 20%;
         cursor: pointer;
-        max-width: 100%;
-        max-height: 100%;
     }
 }
 .imgt{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     &:hover{
         cursor: pointer;
     } 
+}
+.card {
+    min-height: 250px;
 }
  
 
