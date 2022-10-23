@@ -30,7 +30,7 @@ $ch3: black;
 }
 .imgp{
     max-width: 80%;
-    max-height: 80%;
+    max-height: 150px;
     &:hover{
         cursor: pointer;
     }
@@ -44,6 +44,7 @@ $ch3: black;
 }
 .card {
     min-height: 250px;
+    max-height: 300px;
 }
  
 
